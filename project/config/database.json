@@ -1,0 +1,44 @@
+{
+	"active_group":{
+		"default":"database1"
+	},
+	"db_connections":{	
+		"database1":{
+			"driver":"postgresql",
+			"host":"localhost",
+			"bdname":"pruebas",
+			"user":"postgres",
+			"password":"password",
+			"port":"5432",
+			"code": {
+				"4545": "No existe la session"
+			}
+		},
+		"database2":{
+			"driver":"mysql+pymysql",
+			"host":"localhost",
+			"bdname":"mysqldatabase",
+			"user":"admin",
+			"password":"admin",
+			"port":"3306",
+			"code": {
+				"4545": "No existe la session"
+			}
+		},
+		"database3":{
+			"driver":"sqlite",
+			"dbpath":"/tmp/DB.db",
+			"code": {
+				"4545": "No existe la session"
+			}
+		},
+		"database4":{
+			"driver":"mongodb",
+			"dburl":"mongodb://mongodb0.example.com:27017",
+			"bdname":"mongodb",
+			"code": {
+				"4545": "No existe la session"
+			}
+		}
+	}
+}
